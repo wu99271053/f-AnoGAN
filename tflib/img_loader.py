@@ -32,10 +32,10 @@ import scipy.misc
 import time
 
 
-trainset_path     = "path-to-folder-holding-normal-training-images"
-trainset_val_path = "path-to-folder-holding-normal-validation-images"
-test_normal_path  = "path-to-folder-holding-normal-test-images"
-test_anom_path    = "path-to-folder-holding-anom-test-images"
+trainset_path     = "/mnt/d/background/PNG_train/"
+trainset_val_path = "/mnt/d/background/PNG_val/"
+test_normal_path  = "/mnt/d/background/PNG_test_normal/"
+test_anom_path    = "/mnt/d/background/PNG_anom/"
 
 
 def get_files(data_set):
